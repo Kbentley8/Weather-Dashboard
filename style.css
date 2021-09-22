@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
 }
 
 body {
@@ -15,8 +15,8 @@ body {
 header {
     font-size: 40px;
     font-weight: bolder;
-    background-color:  rgb(58, 58, 58);
-    color: white;
+    background-color:  rgb(166, 230, 17);
+    color: rgb(12, 98, 124);
     text-align: center;
     padding: 25px;
 }
@@ -41,7 +41,7 @@ section {
     position: fixed;
     top: 90px; 
     left: 0;
-    background-color: rgb(247, 245, 245);
+    background-color: rgb(67, 139, 112);
 }
 
 h1 {
@@ -51,7 +51,7 @@ h1 {
 }
 
 #basic-text1 {
-    background-color: #007bff;;
+    background-color: #425d79;;
 }
 
 .fas {

@@ -69,7 +69,7 @@ function showWeather(cityInput) {
     url: fiveDay,
     method: "GET",
     }).then(function(response) {
-      
+      console.log(response)
       //icon urls
       var iconUrl1 = "http://openweathermap.org/img/w/" + response.daily[0].weather[0].icon + ".png";
       var iconUrl2 = "http://openweathermap.org/img/w/" + response.daily[1].weather[0].icon + ".png";
@@ -111,7 +111,9 @@ function showWeather(cityInput) {
        +  "<div class='card-text'>" + "<img src='" + iconUrl1 + "'>" +"</div>"
        +  "<div class='card-text'>" + "Temp: " + response.daily[0].temp.day + " °F" + "</div>"
        +  "<div class='card-text'>" + "Humidity: " + response.daily[0].humidity + "%" + "</div>" 
+       +  "<div class='card-text'>" + "Wind Speed: " + response.daily[0].wind_speed + "mph" + "</div>" 
        + "</div>" 
+       
       ); // End of append 
 
       //DAY TWO DETAILS
@@ -121,7 +123,8 @@ function showWeather(cityInput) {
         +  "<div class='card-header'>" + day2 +"</div>"
         +  "<div class='card-text'>" + "<img src='" + iconUrl2 + "'>" +"</div>"
         +  "<div class='card-text'>" + "Temp: " + response.daily[1].temp.day + " °F" + "</div>"
-        +  "<div class='card-text'>" + "Humidity: " + response.daily[1].humidity + "%" + "</div>" 
+        +  "<div class='card-text'>" + "Humidity: " + response.daily[1].humidity + "%" + "</div>"
+        +  "<div class='card-text'>" + "Wind Speed: " + response.daily[0].wind_speed + "mph" + "</div>" 
         + "</div>" 
       ); // End of append 
 
