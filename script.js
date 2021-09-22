@@ -103,7 +103,7 @@ function showWeather(cityInput) {
        + "<h2 id='fiveDay'>" + "5-Day Forecast:" + "</h2>" 
       ); // End of append 
 
-       // day one information
+       // day one info
       $("#day1").append(
        "<div class='fiveDayCard card col s12 m6'>"
        +  "<div class='card-body'>"
@@ -116,7 +116,7 @@ function showWeather(cityInput) {
        
       ); // End of append 
 
-      //day two information
+      //day two info
       $("#day2").append(
         "<div class='fiveDayCard card col s12 m6'>"
         +  "<div class='card-body'>"
