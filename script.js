@@ -128,7 +128,7 @@ function showWeather(cityInput) {
         + "</div>" 
       ); // End of append 
 
-      //DAY THREE DETAILS
+      //day three information
       $("#day3").append(
         "<div class='fiveDayCard card col s12 m6'>"
         +  "<div class='card-body'>"
@@ -138,9 +138,9 @@ function showWeather(cityInput) {
         +  "<div class='card-text'>" + "Humidity: " + response.daily[2].humidity + "%" + "</div>"
         +  "<div class='card-text'>" + "Wind Speed: " + response.daily[0].wind_speed + "mph" + "</div>"
         + "</div>" 
-      ); // End of append 
+      ); // append end
 
-      //DAY FOUR DETAILS
+      //day four information
       $("#day4").append(
         "<div class='fiveDayCard card col s12 m6'>"
         +  "<div class='card-body'>"
@@ -150,9 +150,9 @@ function showWeather(cityInput) {
         +  "<div class='card-text'>" + "Humidity: " + response.daily[3].humidity + "%" + "</div>" 
         +  "<div class='card-text'>" + "Wind Speed: " + response.daily[0].wind_speed + "mph" + "</div>"
         + "</div>" 
-      ); // End of append 
+      ); // append end 
 
-      //DAY FIVE DETAILS
+      //day 5 information
       $("#day5").append(
         "<div class='fiveDayCard card col s12 m6'>"
         +  "<div class='card-body'>"
