@@ -64,7 +64,7 @@ function showWeather(cityInput) {
   + "lat=" + lat + "&lon=" + lon + "&units=imperial" + "&appid=45e45c0bb2ef540df33fa21a29aafa8a";  
     console.log("fiveDay", fiveDay);
 
-   //AJAX call for Five Day & UV
+   //AJAX call for five day & UV
   $.ajax({
     url: fiveDay,
     method: "GET",
@@ -84,7 +84,7 @@ function showWeather(cityInput) {
        + "</div>"
        ); // End of append 
 
-      // UV Index colors 
+      // UV index colors
       if (response.current.uvi <= 2) {
         $("#uvIndex").addClass("green");
        } else if (response.current.uvi <= 5) {
@@ -97,13 +97,13 @@ function showWeather(cityInput) {
            $("#uvIndex").addClass("purple");
        };
 
-      // HEADER
+      // header
       $("#fiveDay").append(
         "<div class='col-md-12'>"
        + "<h2 id='fiveDay'>" + "5-Day Forecast:" + "</h2>" 
       ); // End of append 
 
-       // DAY ONE DETAILS
+       // day one information
       $("#day1").append(
        "<div class='fiveDayCard card col s12 m6'>"
        +  "<div class='card-body'>"
@@ -116,7 +116,7 @@ function showWeather(cityInput) {
        
       ); // End of append 
 
-      //DAY TWO DETAILS
+      //day two information
       $("#day2").append(
         "<div class='fiveDayCard card col s12 m6'>"
         +  "<div class='card-body'>"
@@ -169,7 +169,7 @@ function showWeather(cityInput) {
     }) // End of ajax then response 
   } // end of the show weather function 
 
-//  Function to retrieve the stored input that was saved in each input 
+//  Function used to obtain the stored input that was saved in each input 
 function showCities() {
   $("#cityButtons").empty(); // empties out previous array 
   var arrayFromStorage = JSON.parse(localStorage.getItem("allCities")) || []; // Makes all cities searched a string
