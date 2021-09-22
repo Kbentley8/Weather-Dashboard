@@ -3,4 +3,4 @@ In this assignment, I was tasked with creating a weather dashboard that is able 
 
 [Link to Weather Dashboard](https://kbentley8.github.io/Weather-Dashboard/)
 
-Screenshot of Weather Dashboard![Screen Shot 2021-09-21 at 10 03 55 PM](https://user-images.githubusercontent.com/88289885/134273077-02824cf2-894d-411d-93e2-9098fdcd457a.png)
+# Screenshot of Weather Dashboard![Screen Shot 2021-09-21 at 10 03 55 PM](https://user-images.githubusercontent.com/88289885/134273077-02824cf2-894d-411d-93e2-9098fdcd457a.png)
