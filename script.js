@@ -46,7 +46,7 @@ function showWeather(cityInput) {
 
     // Variables 
     var iconUrl = "http://openweathermap.org/img/w/" + response.weather[0].icon + ".png"; //icon url 
-    var lat = response.coord.lat; // Latiude 
+    var lat = response.coord.lat; // Latitude 
     var lon = response.coord.lon; // Longitude 
   
     // Append daily details to the site 
