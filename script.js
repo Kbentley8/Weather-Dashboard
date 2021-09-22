@@ -160,6 +160,7 @@ function showWeather(cityInput) {
         +  "<div class='card-text'>" + "<img src='" + iconUrl5 + "'>" +"</div>"
         +  "<div class='card-text'>" + "Temp: " + response.daily[4].temp.day + " °F" + "</div>"
         +  "<div class='card-text'>" + "Humidity: " + response.daily[4].humidity + "%" + "</div>" 
+        +  "<div class='card-text'>" + "Wind Speed: " + response.daily[0].wind_speed + "mph" + "</div>"
         + "</div>" 
       ); // End of append 
       
