@@ -128,7 +128,7 @@ function showWeather(cityInput) {
         + "</div>" 
       ); // End of append 
 
-      //day three information
+      //day three info
       $("#day3").append(
         "<div class='fiveDayCard card col s12 m6'>"
         +  "<div class='card-body'>"
