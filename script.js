@@ -140,7 +140,7 @@ function showWeather(cityInput) {
         + "</div>" 
       ); // append end
 
-      //day four information
+      //day four info
       $("#day4").append(
         "<div class='fiveDayCard card col s12 m6'>"
         +  "<div class='card-body'>"
@@ -152,7 +152,7 @@ function showWeather(cityInput) {
         + "</div>" 
       ); // append end 
 
-      //day 5 information
+      //day 5 info
       $("#day5").append(
         "<div class='fiveDayCard card col s12 m6'>"
         +  "<div class='card-body'>"
