@@ -1,4 +1,4 @@
-//Dates
+//the Dates
 var startDate = moment().format('M/DD/YYYY');  // Current Date
 var day1 = moment().add(1, 'days').format('M/DD/YYYY');
 var day2 = moment().add(2, 'days').format('M/DD/YYYY');
@@ -9,7 +9,7 @@ var day5 = moment().add(5, 'days').format('M/DD/YYYY');
 $(document).ready(function() {
 console.log("ready!");
 
-// On-click when user enters city 
+// On-click when user inputs city 
 $("#basic-text1").on("click", function(event) {
   event.preventDefault();
   var cityInput = $("#input").val(); //saves the city that has been entered
