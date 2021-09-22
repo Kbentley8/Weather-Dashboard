@@ -162,12 +162,12 @@ function showWeather(cityInput) {
         +  "<div class='card-text'>" + "Humidity: " + response.daily[4].humidity + "%" + "</div>" 
         +  "<div class='card-text'>" + "Wind Speed: " + response.daily[0].wind_speed + "mph" + "</div>"
         + "</div>" 
-      ); // End of append 
+      ); // append end
       
       showCities(); // calls function to append cities
       }) // End of ajax then response  
     }) // End of ajax then response 
-  } // end of show weather function 
+  } // end of the show weather function 
 
 //  Function to retrieve the stored input that was saved in each input 
 function showCities() {
